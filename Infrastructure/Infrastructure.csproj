@@ -7,6 +7,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.7" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\SeedData\" />
+  </ItemGroup>
   
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
